@@ -5,23 +5,20 @@
     margin-bottom: 24px;
 }
 
-.post-comments {
-    
-}
-
 .post-comment {
     color: #444;
     font-size: 12px;
     line-height: 20px;
-    background-color: #ffff9f;
+    background-color: none;
+    background-color: #ffffff;
     padding: 8px 16px;
     border-radius: 8px;
     margin-bottom: 8px;
 }
 
 .post-comment-content {
-    font-style: italic;
-}
+    font-style: normal;
+}   
 
 .post-comments-form {
     margin-top: 16px;
@@ -34,6 +31,7 @@
     width: 100%;
     margin-bottom: 8px;
     padding: 8px 16px;
+    border-radius: 8px;
 }
 
 .post-comments-form-button {
@@ -41,7 +39,7 @@
     font-weight: bold;
     border-radius: 8px;
     border: none;
-    background-color: #27ae60;
+    background-color: #575757;
     color: #eee;
     cursor: pointer;
 }
