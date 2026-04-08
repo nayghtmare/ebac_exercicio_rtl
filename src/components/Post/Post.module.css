@@ -2,6 +2,7 @@
     background-color: #fff;
     padding: 16px;
     box-shadow: 1px 2px 6px #333;
+    box-shadow: 1px 2px 6px #7e7e7e;
     border-radius: 16px;
 }
 
@@ -12,28 +13,27 @@
 
 .post-text,
 .post-comments-form-textarea {
-    color: #333;
+    color: #afafaf;
     font-size: 14px;
+    color: #adabab;
+    font-size: 12px;
     line-height: 22px;
     margin-bottom: 24px;
 }
 
-.post-comments {
-    
-}
-
 .post-comment {
-    color: #444;
-    font-size: 12px;
+    color: #000000;
+    font-size: 18px;
     line-height: 20px;
-    background-color: #ffff9f;
+    background-color: #ffffff;
     padding: 8px 16px;
     border-radius: 8px;
     margin-bottom: 8px;
 }
 
 .post-comment-content {
-    font-style: italic;
+    font-style: normal;
+    font-size: 16px;
 }
 
 .post-comments-form {
@@ -54,7 +54,7 @@
     font-weight: bold;
     border-radius: 8px;
     border: none;
-    background-color: #27ae60;
+    background-color: #575757;
     color: #eee;
     cursor: pointer;
 }
